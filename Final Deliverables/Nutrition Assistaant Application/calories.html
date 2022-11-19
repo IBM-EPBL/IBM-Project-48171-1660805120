@@ -1,0 +1,60 @@
+<html>
+
+
+<head>
+
+    <link rel="stylesheet" href="calories.css">
+</head>
+
+<body>
+    <center>
+        <h1>food Calories</h1><br>
+        <label>
+    <h3>Servings:</h3>
+    <input type="number" id="numberOfStocks" value="1" min="0" />
+  </label><br><br>
+
+        <div>
+            <div class="side">
+                <h2>Breakfast<span class="servingUnit"></span>:</h2>
+                <select class="selectStock">
+                <option value="-1">Pick a food!</option>
+            </select>
+                <br>
+                <br>
+                <div class="result"></div>
+            </div>
+            <div class="side">
+                <h2>Lunch<span class="servingUnit"></span>:</h2>
+                <select class="selectStock">
+                <option value="-1">Pick a food!</option>
+            </select>
+                <br>
+                <br>
+                <div class="result"></div>
+            </div>
+            <div class="side">
+                <h2>Dinner<span class="servingUnit"></span>:</h2>
+                <select class="selectStock">
+                <option value="-1">Pick a food!</option>
+            </select>
+                <br>
+                <br>
+                <div class="result"></div>
+            </div>
+
+        </div>
+        <div class="comparison">
+            <h2>Comparison:</h2>
+            <br>
+            <div class="result"></div>
+        </div>
+    </center>
+    <form action="bmi.html" method="post">
+        <button>Next</button>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/calory.js"></script>
+</body>
+
+</html>
